@@ -14,7 +14,7 @@ START:
     MOV CL,00H
     MOV AX,NUM1
     MOV BX,NUM2
-    ADD AX,BX
+    SUB AX,BX
     JNZ L1
     INC CL
 L1:
